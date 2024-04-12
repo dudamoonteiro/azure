@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,29 @@
     <link href='https://fonts.googleapis.com/css?family=Pixelify Sans' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
     <link rel="icon" href="https://images.emojiterra.com/google/android-11/512px/2728.png">
+   
     <title>Azure</title>
 </head>
+
 <body>
     <h1>BEM-VINDO</h1>
     <h4>✨Eu estou no Azure✨</h4>
+    <!-- Formulário para inserir o nome do usuário -->
+    <form id="formulario">
+        <label for="nome">Digite seu nome:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+    </form>
+    <div class="botao">
+        <button type="submit">Enviar</button>
+    </div>
+    
+
+    <!-- Espaço para exibir o nome do usuário -->
+    <div id="nomeUsuario"></div>
+
+    <!-- Incluindo o arquivo JavaScript -->
+    <script src="script.js"></script>
+
 </body>
+
 </html>
